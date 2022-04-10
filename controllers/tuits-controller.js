@@ -12,7 +12,7 @@ const createTuit = async (req, res) => {
   newTuit.handle = "JonShih";
   newTuit.time = "now";
   const insertedTuit = await tuitsDao.createTuit(newTuit);
-  res.json(newTuit);
+  res.json(insertedTuit);
 };
 
 const findAllTuits = async (req, res) => {
