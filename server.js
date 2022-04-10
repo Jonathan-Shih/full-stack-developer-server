@@ -4,6 +4,9 @@ import helloController from "./controllers/hello-controller.js";
 import tuitController from "./controllers/tuits-controller.js";
 import userController from "./controllers/user-controller.js";
 
+const DB_CONNECTION_STRING =
+  "mongodb+srv://jonshih:123aabbcc@cluster0.6gab2.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+
 const app = express();
 app.use(cors());
 
