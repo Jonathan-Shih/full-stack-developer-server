@@ -22,7 +22,7 @@ const schema = mongoose.Schema(
     },
     time: {
       type: Date,
-      default: Date.nowtoUTCString(),
+      default: Date.now.toUTCString(),
     },
     title: String,
     tuit: String,
