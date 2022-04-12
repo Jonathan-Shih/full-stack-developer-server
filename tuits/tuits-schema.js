@@ -5,7 +5,7 @@ const schema = mongoose.Schema(
     postedBy: {
       userName: {
         type: String,
-        default: Jon,
+        default: "Jon",
       },
     },
     liked: {
